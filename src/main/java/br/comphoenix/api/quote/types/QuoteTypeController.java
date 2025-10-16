@@ -4,7 +4,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/quote/type")
+@RequestMapping("/api/quote/type/")
 public class QuoteTypeController {
 
     private final QuoteTypeRepository repo;
