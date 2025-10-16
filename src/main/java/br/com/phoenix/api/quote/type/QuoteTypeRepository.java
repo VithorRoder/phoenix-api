@@ -1,4 +1,4 @@
-package br.com.phoenix.api.quote.types;
+package br.com.phoenix.api.quote.type;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
