@@ -1,4 +1,4 @@
-package br.comphoenix.api.quote.types;
+package br.com.phoenix.api.quote.types;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
