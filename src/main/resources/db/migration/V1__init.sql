@@ -14,7 +14,14 @@ CREATE TABLE IF NOT EXISTS user_roles (
 CREATE TABLE IF NOT EXISTS customers (
     id BIGSERIAL PRIMARY KEY,
     name VARCHAR(120) NOT NULL,
-    email VARCHAR(150)
+    email VARCHAR(150) NOT NULL,
+    phone VARCHAR(80) NOT NULL
+);
+
+-- Quote Type
+CREATE TABLE IF NOT EXISTS quote_type (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(120) NOT NULL
 );
 
 -- Seed admin user (password: admin123)
