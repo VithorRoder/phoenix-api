@@ -24,6 +24,14 @@ CREATE TABLE IF NOT EXISTS quote_type (
     name VARCHAR(120) NOT NULL
 );
 
+-- Substrates
+CREATE TABLE IF NOT EXISTS substrates (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(120) NOT NULL,
+    code VARCHAR(15) NOT NULL,
+    price VARCHAR(30) NOT NULL
+);
+
 -- Seed admin user (password: admin123)
 INSERT INTO users (username, password)
 VALUES ('admin', '$2a$10$5iA6Jp.MDg31t1NqxTe6AeaZizUlDIGvyOW0mbQj60LxbcTnyDYfK') -- bcrypt for "admin123"
