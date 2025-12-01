@@ -18,6 +18,6 @@ echo (Use CTRL+C para parar manualmente)
 echo ============================================
 
 REM Ajuste o caminho do JAR se estiver em outra pasta
-java -jar "D:\eclipse.workspace\api-enterprise\target\api-enterprise-1.0.0.jar"
+java -jar "D:\eclipse.workspace\phoenix-api\target\phoenix-api-1.0.0.jar"
 
 pause
