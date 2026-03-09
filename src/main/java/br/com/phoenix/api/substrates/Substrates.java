@@ -20,6 +20,9 @@ public class Substrates {
     @NotBlank
     private String price;
 
+    @NotBlank
+    String size;
+
     public Long getId() {
         return id;
     }
@@ -50,6 +53,14 @@ public class Substrates {
 
     public void setPrice(String price) {
         this.price = price;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
     }
 
 }
