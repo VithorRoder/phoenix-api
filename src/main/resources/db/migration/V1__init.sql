@@ -29,7 +29,8 @@ CREATE TABLE IF NOT EXISTS substrates (
     id BIGSERIAL PRIMARY KEY,
     name VARCHAR(120) NOT NULL,
     code VARCHAR(15) NOT NULL,
-    price VARCHAR(30) NOT NULL
+    price VARCHAR(30) NOT NULL,
+    size VARCHAR(15) NOT NULL
 );
 
 -- Finishing
