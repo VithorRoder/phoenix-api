@@ -39,6 +39,14 @@ CREATE TABLE IF NOT EXISTS finishing (
     name VARCHAR(120) NOT NULL
 );
 
+-- Machines
+CREATE TABLE IF NOT EXISTS machines (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(120) NOT NULL,
+    code VARCHAR(15) NOT NULL,
+    type VARCHAR(30) NOT NULL
+);
+
 -- Seed admin user (password: admin123)
 INSERT INTO users (username, password)
 VALUES ('admin', '$2a$10$5iA6Jp.MDg31t1NqxTe6AeaZizUlDIGvyOW0mbQj60LxbcTnyDYfK') -- bcrypt for "admin123"
